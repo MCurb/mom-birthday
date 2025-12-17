@@ -6,41 +6,61 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="javascript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   </head>
   <body>
-    <h2>2003 - Became a mother</h2>
-    <div class="carousel-one">
-      <ul class="images-container">
-        <li class="active-slide">
-          <img src="./images/first/20251216_193338.jpg" alt="" />
-        </li>
-        <li><img src="./images/first/20251216_215414.jpg" alt="" /></li>
-        <li><img src="./images/first/20251216_215432.jpg" alt="" /></li>
-        <li><img src="./images/first/20251216_215455.jpg" alt="" /></li>
-      </ul>
+    <div class="start">
+      <h2>2003 - Became my mother</h2>
+      <div class="carousel-one">
+        <ul class="images-container">
+          <li class="active-slide">
+            <img src="./images/first/20251216_193338.jpg" alt="" />
+          </li>
+          <li><img src="./images/first/20251216_215414.jpg" alt="" /></li>
+          <li><img src="./images/first/20251216_215432.jpg" alt="" /></li>
+          <li><img src="./images/first/20251216_215455.jpg" alt="" /></li>
+        </ul>
+      </div>
     </div>
-    <h2>2015 - Always supported me</h2>
-    <div class="carousel-two">
-      <ul class="images-container">
-        <li class="active-slide">
-          <img src="./images/middle/IMG_0748.JPG" alt="" />
-        </li>
-        <li><img src="./images/middle/IMG_2444.JPG" alt="" /></li>
-        <li><img src="./images/middle/IMG_2499.JPG" alt="" /></li>
-        <li><img src="./images/middle/IMG_3331.JPG" alt="" /></li>
-      </ul>
+    <div class="middle">
+      <h2>2015 - Always supported me</h2>
+      <div class="carousel-two">
+        <ul class="images-container">
+          <li class="active-slide">
+            <img src="./images/middle/IMG_0748.JPG" alt="" />
+          </li>
+          <li><img src="./images/middle/IMG_2444.JPG" alt="" /></li>
+          <li><img src="./images/middle/IMG_2499.JPG" alt="" /></li>
+          <li><img src="./images/middle/IMG_3331.JPG" alt="" /></li>
+        </ul>
+      </div>
     </div>
-    <h2>2025 - Still my hero</h2>
-    <div class="carousel-three">
-      <ul class="images-container">
-        <li class="active-slide">
-          <img src="./images/end/20250306_113241.jpg" alt="" />
-        </li>
-        <li><img src="./images/end/20250307_155009.jpg" alt="" /></li>
-        <li><img src="./images/end/20250513_132557.jpg" alt="" /></li>
-        <li><img src="./images/end/20250829_210743.jpg" alt="" /></li>
-      </ul>
+    <div class="end">
+      <h2>2025 - Still my hero</h2>
+      <div class="carousel-three">
+        <ul class="images-container">
+          <li class="active-slide">
+            <img src="./images/end/20250306_113241.jpg" alt="" />
+          </li>
+          <li><img src="./images/end/20250307_155009.jpg" alt="" /></li>
+          <li><img src="./images/end/20250513_132557.jpg" alt="" /></li>
+          <li><img src="./images/end/20250829_210743.jpg" alt="" /></li>
+        </ul>
+      </div>
     </div>
-    <button>Click for a surprise</button>
+    <video controls preload="metadata">
+      <source
+        src="images/lv_7409196941466242322_20251216155746.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+    <button class="surprise-btn">Click for a surprise</button>
   </body>
 </html>
